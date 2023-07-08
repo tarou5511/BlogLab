@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogLab.Web", "BlogLab.Web\BlogLab.Web.csproj", "{7D37B054-68D8-46A0-B02A-E04EA82160EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E019EC3D-C239-4B7B-9C56-6FCECBA1B9DD} = {E019EC3D-C239-4B7B-9C56-6FCECBA1B9DD}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogLab.Models", "BlogLab.Models\BlogLab.Models.csproj", "{1F4838CE-178E-45A9-BC30-E0B58D32C2BC}"
 EndProject
@@ -11,7 +14,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogLab.Repository", "BlogL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogLab.Identity", "BlogLab.Identity\BlogLab.Identity.csproj", "{0796B26E-40CF-47C4-83D5-2CBCA141FB74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogLab.Services", "BlogLab.Services\BlogLab.Services.csproj", "{E019EC3D-C239-4B7B-9C56-6FCECBA1B9DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogLab.Services", "BlogLab.Services\BlogLab.Services.csproj", "{E019EC3D-C239-4B7B-9C56-6FCECBA1B9DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
